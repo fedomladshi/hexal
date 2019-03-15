@@ -1,0 +1,66 @@
+.about-content {
+    display: flex;
+    align-items: center;
+    width: 822px;
+    height: 341px;
+    border-left: 1px solid #219d84;
+    border-right: 1px solid #219d84;
+    box-sizing: border-box;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #2eb398;
+}
+
+.content-left {
+    display: flex;
+    align-items: center;
+}
+
+.content-right__icons {
+    display: flex;
+    justify-content: flex-end;
+}
+.content-right__icons img:hover {
+    -webkit-box-shadow: 0px 0px 25px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 25px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 25px -3px rgba(0, 0, 0, 0.75);
+    position: relative;
+    bottom: 2px;
+}
+
+.content-right {
+    margin-left: 10px;
+    height: 203px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-1 {
+    position: relative;
+    bottom: 5px;
+    color: #d7fcf5;
+    font: normal 30px/1 "Maven Pro", sans-serif;
+}
+
+.title-2 {
+    color: #20816d;
+    letter-spacing: 1.7px;
+    margin-bottom: 12px;
+
+}
+
+.content-right__text {
+    font: 12px "Lato Regular", sans-serif;
+    color: #d7fcf5;
+    line-height: 1.3rem;
+
+}
